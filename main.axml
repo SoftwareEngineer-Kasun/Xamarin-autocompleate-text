@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android" 
+   android:orientation = "vertical" 
+   android:layout_width = "fill_parent" 
+   android:background = "#d3d3d3" 
+   android:layout_height = "fill_parent"> 
+   <TextView 
+      android:text = "Enter Name" 
+      android:textAppearance = "?android:attr/textAppearanceMedium" 
+      android:layout_width = "fill_parent" 
+      android:layout_height = "wrap_content" 
+      android:id = "@+id/textView1" 
+      android:padding = "5dp" 
+      android:textColor = "@android:color/black" /> 
+      // here start the autocomplete
+   <AutoCompleteTextView 
+      android:layout_width = "fill_parent" 
+      android:layout_height = "wrap_content" 
+      android:id = "@+id/autoComplete1" 
+      android:textColor = "@android:color/black" /> 
+   <Button 
+      android:text = "Submit" 
+      android:layout_width = "fill_parent" 
+      android:layout_height = "wrap_content" 
+      android:id = "@+id/btn_Submit" 
+      android:background="@android:color/holo_green_dark" /> 
+</LinearLayout>
